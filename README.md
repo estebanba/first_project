@@ -65,13 +65,17 @@ uv pip install -r requirements.txt
 
 ## Main dataset issues
 
-- ...
+- Creating a common Dataframe structure to make diferent datasets compatible
 - ...
 - ...
 
 ## Solutions for the dataset issues
 ...
-
+### Common Dataframe structure for diferent datasets
+- Clean dataframe from dataset
+- Pivot dataframe to have years on columns to have a variable-year structure
+- Reset index and remove the name of the column index for better visualization
+- **Extra**: to simplify some graphics add a column with european country area (Western, Central, Southern Europe...)
 # Conclussions
 ...
 
